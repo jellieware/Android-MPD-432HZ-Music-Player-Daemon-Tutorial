@@ -14,7 +14,8 @@ Requirements:
 *   MPC (Media Player Client)
 *   Optional: Revanced Manager Patch (Remove screen capture restriction)
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
-*   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/ [Download Free](http://jellieware.rf.gd/MAFA.ver.mafa-2.0.2.build.760.apk)
+*   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/
+*   [Download](http://jellieware.rf.gd/MAFA.ver.mafa-2.0.2.build.760.apk)
 *   Some easy code editing necessary...
 
   
