@@ -1,12 +1,9 @@
 # Android-MPD-432HZ-Music-Player-Daemon-Tutorial
 A very nice music player setup for Android (432HZ)
 
-html { background: #fff; width:900px; height:100%; } body { } A very nice music player setup for Android (432HZ)
 
-A very nice music player setup for Android (432HZ)
+![]((https://github.com/user-attachments/assets/c0703ea0-6789-4029-abec-4dff044c1b0a)
 
-![](![logo](https://github.com/user-attachments/assets/c0703ea0-6789-4029-abec-4dff044c1b0a)
-)  
 Requirements:
 
 *   Android
