@@ -14,7 +14,7 @@ Requirements:
 *   MPC (Media Player Client)
 *   Optional: Revanced Manager Patch (Remove screen capture restriction)
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
-*   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/ [Download Free](http://jellieware.rg.gd/MAFA.ver.mafa-2.0.2.build.760.apk)
+*   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/ [Download Free](http://jellieware.rf.gd/MAFA.ver.mafa-2.0.2.build.760.apk)
 *   Some easy code editing necessary...
 
   
@@ -56,7 +56,7 @@ Misc/Other
 *   You can even stream what you're listening to in real time to other users on your home network with the correct configuration...
 
   
+![left](https://github.com/user-attachments/assets/d29c6769-94cc-472c-909f-7c0e75d21b6b)
+![right](https://github.com/user-attachments/assets/88810576-c5f5-464a-bf9c-ab585e7aa989)
 
-![](![left](https://github.com/user-attachments/assets/1c97386d-5ef8-4efb-aab4-8bba7357dcbd)
-) ![](![right](https://github.com/user-attachments/assets/6d09088b-2b4f-4877-b998-cf4e51ec4a9e)
-)
+
