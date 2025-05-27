@@ -10,8 +10,8 @@ Requirements:
 *   Android
 *   Internet Connection
 *   Termux
-*   MPD (Media Player Daemon)
-*   MPC (Media Player Client)
+*   MPD (Music Player Daemon)
+*   MPC (Music Player Client)
 *   Optional: Revanced Manager Patch (Remove screen capture restriction)
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
 *   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/
