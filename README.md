@@ -40,7 +40,19 @@ Commands (Without Quotes):
 Editing "mpd.conf"
 
 *   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for pulse audio and access to all networks...
-*   Download edited "mpd.conf" [Link](http://jellieware.rf.gd/mpd.conf)
+*   #Code:
+*   audio_output {
+        type            "pulse"
+        name            "PulseAudio Output"
+        enabled         "yes"
+        filters         "432hz"
+
+}
+filter {
+        plugin "ffmpeg"
+        name   "432hz"
+        graph  "rubberband=pitch=0.981818"
+}
 *   When done editing your "mpd.conf" type "ctrl-x", "y", "ctrl-m" on your virtual keyboard.
 
   
