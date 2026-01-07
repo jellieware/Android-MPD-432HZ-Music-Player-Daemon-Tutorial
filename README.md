@@ -67,13 +67,13 @@ Misc/Other
 
 *   You can even stream what you're listening to in real time to other users on your home network with the correct configuration...
   <br>
-*  Bauer stereophonic-to-binaural (bs2b)
-You can also use "bs2b" with pulseaudio/opensles in termux:
-* Grab the sourcecode from "sourceforge.net"
-* Compile the code:
-* "bash configure"
-* "make"
-* Then copy "bs2b.so" to "lib" directory
+*  Bauer stereophonic-to-binaural (bs2b)<br>
+You can also use "bs2b" with pulseaudio/opensles in termux:<br>
+* Grab the sourcecode from "sourceforge.net"<br>
+* Compile the code:<br>
+* "bash configure"<br>
+* "make"<br>
+* Then copy "bs2b.so" to "lib" directory<br>
 * Then modify "default.pa": Add the following lines at the end of the file<br><br>
 * pacmd load-module module-ladspa-sink sink_name=bs2b master=OpenSL_ES_sink plugin=bs2b label=bs2b control=700,4.5<br>
 * set-default-sink bs2b<br>
