@@ -77,6 +77,8 @@ You can also use "bs2b" with pulseaudio/opensles in termux:
 * Then modify "default.pa": Add the following lines at the end of the file<br><br>
 * pacmd load-module module-ladspa-sink sink_name=bs2b master=OpenSL_ES_sink plugin=bs2b label=bs2b control=700,4.5<br>
 * set-default-sink bs2b<br>
+<br>
+* Then type:<br>
 * pulseaudio -k && pulseaudio --start<br>
 
   
