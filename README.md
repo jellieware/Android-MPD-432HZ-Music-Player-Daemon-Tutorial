@@ -66,6 +66,16 @@ MAFA Setup
 Misc/Other
 
 *   You can even stream what you're listening to in real time to other users on your home network with the correct configuration...
+  <br>
+*  Bauer stereophonic-to-binaural (bs2b)
+You can also use "bs2b" with pulseaudio/opensles in termux:
+* Grab the sourcecode from "sourceforge.net"
+* Compile the code:
+* "bash configure"
+* "make"
+* Then copy "bs2b.so" to "lib" directory
+* Then modify "default.pa": Add the following lines at the end of the file
+* 
 
   
 ![left](https://github.com/user-attachments/assets/d29c6769-94cc-472c-909f-7c0e75d21b6b)
