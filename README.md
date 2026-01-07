@@ -1,5 +1,5 @@
 # Android-MPD-432HZ-Music-Player-Daemon-Tutorial
-A very nice music player setup for Android (432HZ)
+A very nice music player setup for Android (432HZ) + Binaural
 
 
 ![logo](https://github.com/user-attachments/assets/34efb8ec-2197-4a72-9b31-e8d6aef3db1c)
