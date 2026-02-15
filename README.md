@@ -66,7 +66,7 @@ MAFA Setup
 *   Add your server (After typing: "mpd" in Termux window) IP:0.0.0.0 Port:8600
 *   If you have successfuly added the correct directory paths for your playlists/music collection in "mpd.conf" it will show up in the Mafa client. it might take some time to show everything depending on how much music data you have.
 
-* Finally use my bash script and choose an impulse response (irs)
+* Finally use my bash script (fifo2ffplay.sh) and choose an impulse response (irs)
 * The bash script needs to be running at the same time as mafa/mpd
   
 Misc/Other
