@@ -64,24 +64,13 @@ MAFA Setup
 *   Add your server (After typing: "mpd" in Termux window) IP:0.0.0.0 Port:8600
 *   If you have successfuly added the correct directory paths for your playlists/music collection in "mpd.conf" it will show up in the Mafa client. it might take some time to show everything depending on how much music data you have.
 
+* Finally use my bash script and choose an impulse response (irs)
+* The bash script needs to be running at the same time as mafa/mpd
   
 Misc/Other
 
 *   You can even stream what you're listening to in real time to other users on your home network with the correct configuration...
   <br>
-*  Bauer stereophonic-to-binaural (bs2b)<br>
-You can also use "bs2b" with pulseaudio/opensles in termux:<br>
-* Grab the sourcecode from "sourceforge.net"<br>
-* Compile the code:<br>
-* "bash configure"<br>
-* "make"<br>
-* Then copy "bs2b.so" to "lib" directory<br>
-* Then modify "default.pa": Add the following lines at the end of the file<br><br>
-* pacmd load-module module-ladspa-sink sink_name=bs2b master=OpenSL_ES_sink plugin=bs2b label=bs2b control=700,4.5<br>
-* set-default-sink bs2b<br>
-<br>
-* Then type:<br>
-* pulseaudio -k && pulseaudio --start<br>
 
   
 ![left](https://github.com/user-attachments/assets/d29c6769-94cc-472c-909f-7c0e75d21b6b)
