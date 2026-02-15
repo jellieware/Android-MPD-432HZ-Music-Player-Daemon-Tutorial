@@ -31,6 +31,8 @@ Commands (Without Quotes):
 *   "termux-setup-storage"
 *   "apt-get install mpd"
 *   "apt-get install mpc"
+*   "apt-get install ffmpeg"
+*   "apt-get install ffplay"
 *   "cd ~/"
 *   "cd .."
 *   "cd usr"
