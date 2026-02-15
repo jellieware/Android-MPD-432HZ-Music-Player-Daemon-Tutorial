@@ -42,7 +42,7 @@ Commands (Without Quotes):
   
 Editing "mpd.conf"
 
-*   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for pulse audio and access to all networks...
+*   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for fifo and access to all networks...
 *   #Code:<br><br>
     audio_output {<br>
         type            "fifo"<br>
