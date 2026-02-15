@@ -1,5 +1,5 @@
 # Android-MPD-432HZ-Music-Player-Daemon-Tutorial
-A very nice music player setup for Android (432HZ) + Binaural
+A very nice music player setup for Android (432HZ) + Binaural + Convolver
 
 
 ![logo](https://github.com/user-attachments/assets/34efb8ec-2197-4a72-9b31-e8d6aef3db1c)
@@ -12,6 +12,7 @@ Requirements:
 *   Termux
 *   MPD (Music Player Daemon)
 *   MPC (Music Player Client)
+*   ffmpeg + ffplay
 *   Optional: Revanced Manager Patch (Remove screen capture restriction)
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
 *   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/
@@ -42,8 +43,9 @@ Editing "mpd.conf"
 *   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for pulse audio and access to all networks...
 *   #Code:<br><br>
     audio_output {<br>
-        type            "pulse"<br>
-        name            "PulseAudio Output"<br>
+        type            "fifo"<br>
+        name            "FFmpeg Convolution Pipe"<br>
+        path    "~/mpd.fifo"<br>
         enabled         "yes"<br>
         filters         "432hz"<br>
 
