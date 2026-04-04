@@ -1,9 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
 # 2. Run FFmpeg (run in background or separate termux session
-
-ffmpeg -f s16le -ar 44100 -ac 2 -i ~/mpd.fifo \
-       -i /storage/emulated/0/THXstereo.wav \
+ffmpeg -hide_banner -loglevel error -f s16le -ar 44100 -ac 2 -i ~/mpd.fifo \
+       -i /storage/emulated/0/DolbyProLogic2.irs \
        -filter_complex "[0:a][1:a]afir=dry=1:wet=1[out]" \
        -map "[out]" -f wav - | \
 ffplay -nodisp -af "bs2b=fcut=650:feed=95,dynaudnorm=g=5:p=0.9" -fflags nobuffer -flags low_delay -i - >/dev/null 2>&1 &
@@ -22,14 +20,12 @@ check_mpd_state() {
     fi
 
     if echo "$STATUS" | grep -q "paused"; then
-        echo "MPD is paused."
+        # echo "MPD is paused."
         mpc play
     elif echo "$STATUS" | grep -q "stopped"; then
-        echo "MPD is stopped."
+        # echo "MPD is stopped."
         mpd &
         mpc play
-    else
-        echo "MPD is playing."
         # Add your commands here for the playing state
     fi
 }
